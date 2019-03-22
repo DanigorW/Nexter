@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  .header {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+  }
+}
